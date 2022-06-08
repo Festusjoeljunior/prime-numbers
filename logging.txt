@@ -1,0 +1,130 @@
+Request method:	GET
+Request URI:	http://localhost:8080/primeNumbers/97
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	number=97
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 07 Jun 2022 21:01:54 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "number": 97,
+    "primeNumbers": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29,
+        31,
+        37,
+        41,
+        43,
+        47,
+        53,
+        59,
+        61,
+        67,
+        71,
+        73,
+        79,
+        83,
+        89,
+        97
+    ]
+}
+Request method:	GET
+Request URI:	http://localhost:8080/primeNumbers/11
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	number=11
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 07 Jun 2022 21:01:55 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "number": 11,
+    "primeNumbers": [
+        2,
+        3,
+        5,
+        7,
+        11
+    ]
+}
+Request method:	GET
+Request URI:	http://localhost:8080/primeNumbers/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	number=
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 07 Jun 2022 21:01:55 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "timestamp": "2022-06-07T21:01:55.881+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/primeNumbers/"
+}
+Request method:	GET
+Request URI:	http://localhost:8080/primeNumbers/hello
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	number=hello
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 07 Jun 2022 21:01:55 GMT
+Connection: close
+
+{
+    "timestamp": "2022-06-07T21:01:55.952+00:00",
+    "status": 400,
+    "error": "Bad Request",
+    "path": "/primeNumbers/hello"
+}
